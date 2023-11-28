@@ -7,7 +7,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color:rgb(121, 65, 65);
+    background-color:black;
     color: #fff;
     overflow: hidden;
     overflow-y: scroll;
@@ -106,13 +106,17 @@ h4{
     padding:2rem 6rem;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    list-style:none;
 }
 
 .tech-list-item{
    height: 10rem;
    width:10rem;
    padding:2rem 2rem;
+   object-fit: cover;
+   border-radius: 30%;
+ 
 }
 
 #contact{
@@ -155,4 +159,31 @@ h3{
     padding:0.75rem 2rem;
     font-weight: 300;
     margin:2rem;
+    font-size: medium;
+}
+
+.profile-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 2rem 2rem;
+}
+
+.link{
+    height: 50px;
+    width:50px;
+    margin-left: 20px;
+    object-fit: cover;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.footer{
+    width:100vw;
+    height:4rem;
+    font-size: small;
+    background-color: rgb(40,40,40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

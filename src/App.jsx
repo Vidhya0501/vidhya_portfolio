@@ -3,6 +3,7 @@ import Home from "./component/Home"
 import Skills from "./component/Skills"
 import Projects from "./component/projects"
 import Contact from "./component/Contact"
+import Footer from "./component/Footer"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
