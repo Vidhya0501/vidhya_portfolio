@@ -1,189 +1,27 @@
-*{
-margin:0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
-font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    background-color:black;
-    color: #fff;
-    overflow: hidden;
-    overflow-y: scroll;
+.text-orange {
+  color: orangered;
 }
 
-.nav{
-    height:4rem;
-    width:100vw;
-    max-width:80rem;
-    margin:0 auto;
-    padding: 2rem 4rem 2rem 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top:0;
-    z-index: 5;
-    background-color: #fff;
-    color:black
-}
-h2{
-    font-family: 'Dancing Script', cursive !important; 
-    font-size: 40px !important;
-    color:darkgoldenrod;
+.nav-link {
+  cursor: pointer;
 }
 
- .nav-menu-list-item{
-    margin:1rem;
-    cursor: pointer;
-    font-size: 20px; 
- }
-
- .nav-menu-list-item:hover{
-    color:darkgoldenrod;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid;
- }
-
- #home{
-    height:calc(100vh-4rem);
-    width:100vw;
-    max-width:80rem;
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    
+.nav-link:hover {
+  background-color: orangered;
+  padding-bottom: 0.5rem;
+}
+.heading {
+  letter-spacing: 2px;
 }
 
-.myImage{
-    height:100vh;
-    object-fit: cover;
-    border-radius: 30%;
-}
-
-.home-text{
-    margin:10rem 4rem;
-    font-size: 30px;
-}
-
-.home-text p{
-    padding: 1rem;
-    font-size:35px;
-    font-weight: 300;
-}
-
-.name,.role{
-    font-weight: 500;
-    color:darkgoldenrod;
-}
-
-#skills{
-    height:calc(100vh-4rem);
-    width:100vw;
-    max-width:80rem;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-h4{
-    font-size:35px;
-    font-weight: 500;
-    font-style: italic;
-    color:darkgoldenrod;
-    padding:4rem 2rem;
-}
-
-.tech{
-    font-size:35px;
-    font-weight: 500;
-    color:blueviolet;
-    padding:2rem 6rem;
-}
-
-.tech-list ul{
-    padding:2rem 6rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-    list-style:none;
-}
-
-.tech-list-item{
-   height: 10rem;
-   width:10rem;
-   padding:2rem 2rem;
-   object-fit: cover;
-   border-radius: 30%;
- 
-}
-
-#contact{
-    min-height:calc(100vh-4rem);
-    width: 100vw;
-    max-width:60rem;
-    margin:0 auto;
-    text-align: center;
-}
-
-h3{
-    font-size:2rem;
-    color:darkgoldenrod;
-}
-.contact-form{
-    margin:1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:90vw;
-    max-width: 60rem;
-}
-
-.name,.email,.msg{
-    width:100%;
-    max-width:40 rem;
-    margin:0.5rem;
-    padding: 0.5rem 1rem;
-    border:none;
-    border-radius: 0.5rem;
-    background-color: rgb(40,40,40);
-    color:#fff;
-}
-
-.submit-btn{
-    border: none;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    padding:0.75rem 2rem;
-    font-weight: 300;
-    margin:2rem;
-    font-size: medium;
-}
-
-.profile-links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding: 2rem 2rem;
-}
-
-.link{
-    height: 50px;
-    width:50px;
-    margin-left: 20px;
-    object-fit: cover;
-    background-color: grey;
-    border-radius: 50%;
-}
-
-.footer{
-    width:100vw;
-    height:4rem;
-    font-size: small;
-    background-color: rgb(40,40,40);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
