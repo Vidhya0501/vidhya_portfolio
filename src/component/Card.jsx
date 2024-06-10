@@ -9,7 +9,11 @@ function Card({data}) {
      <div className="card-body">
     <h5 className="card-title">{data.name}</h5>
     <p className="card-text">{data.description}</p>
-    <a href={data.link} className="btn btn-primary" target="_blank">Explore Project</a>
+    <div className='d-flex justify-content-between'>
+    <a href={data.sourceLink} className="btn border bg-dark text-orange " target="_blank">Github</a>
+    <a href={data.deployLlink} className="btn border bg-dark text-orange " target="_blank">Explore Project</a>
+    </div>
+    
   </div>
 </div>
 </div>
