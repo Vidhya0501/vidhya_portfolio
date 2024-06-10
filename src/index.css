@@ -25,3 +25,9 @@
 .transparent-input {
   background-color: rgba(0, 0, 0, 0) !important;
 }
+
+.home-img img{
+  height:300px;
+  width: 300px;
+  border-radius: 50%;
+}

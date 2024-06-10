@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({data}) {
   return (
-    <div className='col wrapper mt-4'>
+    <div className='col d-flex justify-content-between m-2 p-2'>
 
 <div className="card" style={{width: "18rem"}}>
      <img className="card-img-top" src={data.image} alt="Card image cap"/>
