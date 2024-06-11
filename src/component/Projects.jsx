@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import {projectData} from './data/projectData'
-function projects() {
+function Projects() {
  
   return (
     <>
@@ -22,4 +22,4 @@ function projects() {
   )
 }
 
-export default projects
+export default Projects
