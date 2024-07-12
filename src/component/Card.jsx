@@ -11,7 +11,7 @@ function Card({data}) {
     <p className="card-text">{data.description}</p>
     <div className='d-flex justify-content-between'>
     <a href={data.sourceLink} className="btn border bg-dark text-orange " target="_blank">Github</a>
-    <a href={data.deployLlink} className="btn border bg-dark text-orange " target="_blank">Explore Project</a>
+    <a href={data.deployedLink} className="btn border bg-dark text-orange " target="_blank">Explore Project</a>
     </div>
     
   </div>

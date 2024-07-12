@@ -7,6 +7,8 @@ import Skills from "./component/Skills";
 import Contact from "./component/Contact";
 import { Toaster } from "react-hot-toast";
 import Projects from "./component/Projects";
+
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
       <Toaster position="top-center" />
 
       <Topbar />
+     
       <Home />
       <Skills />
       <Projects/>

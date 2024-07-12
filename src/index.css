@@ -4,7 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  
 }
+
 
 .text-orange {
   color: orangered;
@@ -22,8 +24,17 @@
   letter-spacing: 2px;
 }
 
+/* .section-bg{
+  background-image: url("https://t4.ftcdn.net/jpg/06/72/79/91/360_F_672799194_m224ovXpZehcFxmkACtqWukmFChy0NPZ.jpg")!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100vw;
+} */
 .transparent-input {
   background-color: rgba(0, 0, 0, 0) !important;
+  
 }
 
 .home-img img{
@@ -31,3 +42,5 @@
   width: 300px;
   border-radius: 50%;
 }
+
+

@@ -32,8 +32,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-dark text-white">
-        <section id="contact">
+      <div className="bg-dark text-white" >
+        <section id="contact" data-aos="zoom-in-left"  data-aos-duration="2000">
           <h4 className="fst-italic fw-bold fs-4 text-center pt-3 heading">
             Contact me
           </h4>
@@ -62,13 +62,14 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/vidhya-s-92884b27b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYilFnS0iRRCjygq%2FLiIqoQ%3D%3D"
             target="_blank"
+            data-aos="zoom-in-left"  data-aos-duration="2000"
           >
             <img
               src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png"
               style={{ width: "80px", height: "80px" }}
             />
           </a>
-          <a href="https://github.com/Vidhya0501" target="_blank">
+          <a href="https://github.com/Vidhya0501" target="_blank" data-aos="zoom-in-left"  data-aos-duration="3000">
             <img
               src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
               style={{ width: "50px", height: "50px" }}
