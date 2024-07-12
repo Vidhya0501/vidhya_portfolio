@@ -45,10 +45,10 @@ function Skills() {
               data-aos-duration="1000"
             />
           </div>
-          <div className="skill-set2 d-flex justify-content-around m-5 p-5">
+          <div className="skill-set2 d-flex justify-content-around flex-wrap m-5 p-5">
             <img
               src="https://i.pinimg.com/1200x/d4/26/72/d42672d4d185739d26257ed5c653c740.jpg"
-              //src=""
+             
               alt="NodeJS"
               className="tech-list-item"
               style={{ width: "100px", height: "100px" }}
