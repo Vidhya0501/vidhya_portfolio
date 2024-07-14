@@ -80,6 +80,15 @@ function Skills() {
               data-aos-duration="1000"
               
             />
+            <img
+              src="https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png"
+              alt="MySQL"
+              className="tech-list-item"
+              style={{ width: "100px", height: "100px" }}
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              
+            />
           </div>
         </div>
       </section>
