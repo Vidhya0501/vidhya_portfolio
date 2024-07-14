@@ -6,6 +6,20 @@ export const  projectData=[
         deployedLink:"https://online-music-player-mern-vidhya.netlify.app/",
         sourceLink:"https://github.com/Vidhya0501/music-player-BEnew"
       },
+      {
+        image:"https://res.cloudinary.com/dwnymc8jy/image/upload/v1720970252/project-images/ems_amru6b.png",
+        name:"EMS ",
+        description:"Employee Management System using (React js, Node js, Express js, MySQL). ",
+        deployedLink:"https://employee-mngmnt-mysql-vidhya.netlify.app/",
+        sourceLink:"https://github.com/Vidhya0501/EmployeeManagement"
+      },
+      {
+        image:"https://res.cloudinary.com/dwnymc8jy/image/upload/v1720970641/project-images/ecommerce_website_trpw9p.png",
+        name:"Shop Nest",
+        description:"Ecommerce website using the MERN stack. ",
+        deployedLink:"https://e-commerce-shopnest-vidhya.netlify.app/",
+        sourceLink:"https://github.com/Vidhya0501/E-Commerce-Website"
+      },
     {
       image:"https://res.cloudinary.com/dwnymc8jy/image/upload/v1711529730/project-images/Dice_Game_okwzfk.png",
       name:"Dice Game",
