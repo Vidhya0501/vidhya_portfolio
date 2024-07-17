@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-dark text-white" >
+      <div className="conatiner-fluid bg-dark bg-image text-white" >
         <section id="contact" data-aos="zoom-in-left"  data-aos-duration="2000">
           <h4 className="fst-italic fw-bold fs-4 text-center pt-3 heading">
             Contact me
