@@ -64,7 +64,7 @@ function Home() {
       className="col-lg-6 col-md-6 col-sm-12"
       
     >
-        <div className="home-img m-5 p-5">
+        <div className="home-img mt-5 pt-5 ms-4 ps-4">
           <img
             src="https://llllline.com/images/thumbs/woma/woman-girl-with-laptop-vector-0000079698-800.webp"
             alt="MyImage"
