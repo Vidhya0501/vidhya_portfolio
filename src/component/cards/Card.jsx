@@ -2,10 +2,10 @@ import React from "react";
 
 function Card({ data }) {
   return (
-    <div className="col d-flex justify-content-between m-2 p-2">
+    <div className="col d-flex justify-content-around m-2 p-2">
       <div className="flip-box" data-aos="flip-right" data-aos-duration="2000">
         <div className="flip-box-front">
-          <div className="card p-1" style={{ width: "18rem", height: "17rem" }}>
+          <div className="card p-1" style={{ width: "18rem", height: "18rem" }}>
             <img
               className="card-img-top"
               src={data.image}
@@ -17,7 +17,7 @@ function Card({ data }) {
           </div>
         </div>
         <div className="flip-box-back">
-          <div className="card p-1" style={{ width: "18rem", height: "17rem" }}>
+          <div className="card p-1" style={{ width: "18rem", height: "18rem" }}>
             <div className="card-body">
               <p className="card-text text-center">{data.description}</p>
               <p className="card-text text-center">{data.techStack}</p>
