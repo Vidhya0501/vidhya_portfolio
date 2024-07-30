@@ -37,7 +37,7 @@ export const  projectData=[
         name:"EMS - Employee Management System ",
         description:"Employee Management System using (React js, Node js, Express js, MySQL). ",
         techStack:"React js, Node js, Express js, MySQL, JWT, Bcrypt",
-        deployedLink:"https://employee-mngmnt-mysql-vidhya.netlify.app/",
+        deployedLink:"https://employee-management-mysql-vidhya.netlify.app/",
         sourceLink:"https://github.com/Vidhya0501/EmployeeManagement"
       },
 
